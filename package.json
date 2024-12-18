@@ -1,0 +1,17 @@
+{
+    "name": "tilebound-tales",
+    "version": "1.0.0",
+    "description": "Tilebound Tales - A web-based tile game using Phaser and AWS DynamoDB.",
+    "scripts": {
+      "start": "npx http-server ./public -c-1 -o",
+      "build": "echo 'No build step required, using plain JS.'"
+    },
+    "dependencies": {
+      "aws-sdk": "^2.1362.0",
+      "phaser": "^3.60.0"
+    },
+    "devDependencies": {
+      "http-server": "^14.1.1"
+    }
+  }
+  
